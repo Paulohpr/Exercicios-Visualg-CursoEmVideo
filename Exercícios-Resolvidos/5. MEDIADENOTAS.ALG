@@ -1,4 +1,9 @@
 algoritmo "MediaDeNotas"
+// Disciplina   : Algoritmo
+// Professor   : Gustavo Guanabara
+// Descrição   : Faça um programa que leia as duas notas de um aluno em uma matéria e mostre
+// Autor(a)    : Paulohpr
+// Data atual  : 06/01/2025
 var
    n1, n2, s: Real
 inicio
