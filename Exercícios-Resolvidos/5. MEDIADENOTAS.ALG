@@ -2,6 +2,7 @@ algoritmo "MediaDeNotas"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
 // Descrição   : Faça um programa que leia as duas notas de um aluno em uma matéria e mostre
+// na tela a sua média na disciplina.
 // Autor(a)    : Paulohpr
 // Data atual  : 06/01/2025
 var

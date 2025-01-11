@@ -2,6 +2,7 @@ algoritmo "8. CONVERSORDEMEDIDAS"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
 // Descrição   : Desenvolva um programa que leia uma distância em metros e mostre os valores
+// relativos em outras medidas.
 // Autor(a)    : Paulohpr
 // Data atual  : 07/01/2025
 var

@@ -2,6 +2,7 @@ algoritmo "QualSeuNomeESalario"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
 // Descrição   : Crie um programa que leia o nome e o salário de um funcionário, mostrando no
+// final uma mensagem.
 // Autor(a)    : Paulohpr
 // Data atual  : 06/01/2025
 var

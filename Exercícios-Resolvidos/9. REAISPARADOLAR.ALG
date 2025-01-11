@@ -1,7 +1,8 @@
 algoritmo "9. REAISPARADOLAR"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
-// Descrição   : D9) Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+// Descrição   : Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+// e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
 // Autor(a)    : Paulohpr
 // Data atual  : 07/01/2025
 var

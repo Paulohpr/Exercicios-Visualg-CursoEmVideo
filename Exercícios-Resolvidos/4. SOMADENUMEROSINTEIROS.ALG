@@ -2,7 +2,7 @@ algoritmo "SomaDeNumerosInteiros"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
 // Descrição   : Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
-// Autor(a)    : Paulohpr
+// entre eles.
 // Data atual  : 06/01/2025
 var
    v1, v2, s: inteiro

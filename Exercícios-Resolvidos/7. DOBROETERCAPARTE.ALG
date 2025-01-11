@@ -2,6 +2,7 @@ algoritmo "DobroETerçaParte"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
 // Descrição   : Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a
+// sua terça parte.
 // Autor(a)    : Paulohpr
 // Data atual  : 07/01/2025
 var

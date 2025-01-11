@@ -2,6 +2,7 @@ algoritmo "AntecessoreSucessor"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
 // Descrição   : Faça um programa que leia um número inteiro e mostre o seu antecessor e seu
+// sucessor.
 // Autor(a)    : Paulohpr
 // Data atual  : 06/01/2025
 var
