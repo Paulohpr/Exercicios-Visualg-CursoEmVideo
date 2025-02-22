@@ -1,13 +1,13 @@
 algoritmo "AULA9.CONTADORINTELIGENTE"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
-// Descrição   : Contador inteligente, proposto na video aula 9. Quando o número
+// DescriÃ§Ã£o   : Contador inteligente, proposto na video aula 9. Quando o nÃºmero
 // inicial for maior que o fim, ele vai mostrar uma contagem regresiva, caso
-// contrário, vai mostrar uma contagem regressiva.
+// contrÃ¡rio, vai mostrar uma contagem regressiva.
 // Autor(a)    : Paulohpr
 // Data atual  : 28/01/2025
 var
-   i, f: real
+   i, f: inteiro
 inicio
    Escreval ("CONTAGEM INTELIGENTE")
    Escreva ("--------------------")
@@ -19,20 +19,20 @@ inicio
    Escreval ("---------------")
    EscrevaL ("C O N T A N D O")
    Escreval ("---------------")
-   Se (i > f) Então
-      Enquanto (i >= f) faça
+   Se (i > f) EntÃ£o
+      Enquanto (i >= f) faÃ§a
          Escreva (i,".. ")
          i <- i - 1
       FimEnquanto
-   Senão
-      Se (i < f) Então
-         Enquanto (i <= f) faça
+   SenÃ£o
+      Se (i < f) EntÃ£o
+         Enquanto (i <= f) faÃ§a
             Escreva (i,".. ")
             i <- i + 1
          FimEnquanto
-      Senão
-         Se  (i = f) Então
-            Escreva ("Erro, números iguais, tente novamente com números diferentes.")
+      SenÃ£o
+         Se  (i = f) EntÃ£o
+            Escreva ("Erro, nÃºmeros iguais, tente novamente com nÃºmeros diferentes.")
          FimSe
       FImSe
    FimSe
