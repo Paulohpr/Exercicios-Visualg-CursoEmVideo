@@ -5,7 +5,7 @@ algoritmo "AULA9.CONTADORINTELIGENTE"
 // inicial for maior que o fim, ele vai mostrar uma contagem regresiva, caso
 // contrário, vai mostrar uma contagem regressiva.
 // Autor(a)    : Paulohpr
-// Data atual  : 28/01/2025
+// Data atual  : 22/02/2025
 var
    i, f: inteiro
 inicio
