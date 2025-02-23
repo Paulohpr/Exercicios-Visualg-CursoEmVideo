@@ -30,7 +30,7 @@ inicio
       Se (genero = "M") e (idade > 18) e (cabelo = 2) Entao
          homem <- homem + 1
          Senão
-              Se (genero = "F") e (idade >= 25) e (idade < 31) e (cabelo = 3) Entao
+              Se (genero = "F") e (idade >= 25) e (idade <= 30) e (cabelo = 3) Entao
                  mulher <- mulher + 1
          FimSe
       FimSe
