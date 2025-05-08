@@ -1,43 +1,32 @@
-algoritmo "34.IMC"
+algoritmo "33.EmprestimoBancario"
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
-// Descrição   : 34) O Índice de Massa Corpórea (IMC) é um valor calculado
-// baseado na altura e no peso de uma pessoa. De acordo com o valor do IMC,
-// podemos classificar o indivíduo dentro de certas faixas. - abaixo de 18.5:
-// Abaixo do peso - entre 18.5 e 25: Peso ideal - entre 25 e 30:
-// Sobrepeso - entre 30 e 40: Obesidade - acima de 40: Obseidade mórbida
+// Descrição   :  Escreva um programa para aprovar ou não o empréstimo
+// bancário para a compra de uma casa. O programa vai perguntar o valor da casa,
+// o salário do comprador e em quantos anos ele vai pagar. Calcule o
+// valor da prestação mensal, sabendo que ela não pode exceder 30% do salário
+// ou então o empréstimo será negado.
 // Autor(a)    : Paulohpr
 // Data atual  : 06/05/2025
 var
-   altura, peso, imc: real
+   valcasa, salario, anos, p, valmen: real
 inicio
-   Escreval ("---------------------------------")
-   Escreval ("CALCULADORA DE IMC")
-   Escreval ("---------------------------------")
-   Escreva ("Qual é a sua altura?")
-   Leia (altura)
-   Escreva ("Qual é o seu peso?")
-   Leia (peso)
+   Escreval ("Empréstimo Bancário")
+   Escreval ("--------------------------------")
+   Escreva ("Qual é o valor da casa? R$")
+   Leia (valcasa)
+   Escreva ("Qual é o seu salário? R$")
+   Leia (salario)
+   Escreva ("Em quantos anos você vai pagar? ")
+   Leia (anos)
 
-   imc <- peso/(altura^2)
-
-   se (imc < 18.5) entao
-      Escreva ("Seu IMC é 18.5, considerado abaixo do peso!")
-   FimSe
-
-   se (imc >= 18.5) e (imc <=25) entao
-      Escreva ("Seu IMC é ", imc:3:2, " considerado peso ideal!")
-   FimSe
-
-   se (imc >= 25) e (imc <=30) entao
-      Escreva ("Seu IMC é ", imc:3:2, " considerado sobrepeso!")
-   FimSe
+   valmen <- valcasa/(anos*12)
+   p <- (30/100) * salario
    
-   Se (imc >= 30) e (imc <=40) entao
-      Escreva ("Seu IMC é ", imc:3:2, " considerado obesidade!")
-   FimSe
-   
-   Se (imc >= 40) entao
-      Escreva ("Seu IMC é ", imc:3:2, " considerado obesidade mórbida!")
-   FimSe
+   Se (valmen > p) Então
+      Escreval ("Emprestimo negado!")
+      Escreval ("Valor da mensalidade ultrapassa 30% do seu salario")
+  Senao
+       Escreva ("Empréstimo aceito!")
+  FimSe
 fimalgoritmo
