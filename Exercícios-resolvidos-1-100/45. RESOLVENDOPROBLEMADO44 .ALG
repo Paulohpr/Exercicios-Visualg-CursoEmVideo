@@ -1,10 +1,9 @@
-algoritmo "44.CONTADORCOMLEITURAEINCREMENTO"
+Algoritmo "45. RESOLVENDOPROBLEMADO44 "
 // Disciplina   : Algoritmo
 // Professor   : Gustavo Guanabara
-// Descrição   : 44) Crie um algoritmo que leia o valor inicial da contagem,
-// o valor final e o incremento, mostrando em seguida todos os valores
-// no intervalo: Ex: Digite o primeiro Valor: 3 Digite o último Valor: 10
-// Digite o incremento: 2 Contagem: 3 5 7 9 Acabou!
+// Descrição   : 45) O programa acima vai ter um problema quando digitarmos
+// o primeiro valor maior que o último. Resolva esse problema com um código
+// que funcione em qualquer ituação.
 // Autor(a)    : Paulohpr
 // Data atual  : 10/05/2025
 var
@@ -27,9 +26,17 @@ inicio
 
    Escreva ("CONTAGEM: ")
 
-   Enquanto (v <= u) faca
-      Escreva (v)
-      v <- v + i
-   FimEnquanto
-   Escreva (" Acabou!")
+   Se (v <= u) então
+      Enquanto (v <= u) faca
+         Escreva (v)
+         v <- v + i
+      FimEnquanto
+      Escreva (" Acabou!")
+   Senao
+      Enquanto (v >= u) faca
+         Escreva (v)
+         v <- v - i
+      FimEnquanto
+      Escreva (" Acabou!")
+   fimse
 fimalgoritmo
