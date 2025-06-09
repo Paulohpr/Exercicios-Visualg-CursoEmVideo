@@ -1,4 +1,4 @@
-## Exercicios-Visualg-CursoEmVideo
+## Exercícios-Visualg-CursoEmVideo
 
 O objetivo deste repositório é armazenar os exercícios já resolvidos, com o intuito de auxiliar outros iniciantes neste curso e, principalmente, registrar a minha trajetória de aprendizado.
 
